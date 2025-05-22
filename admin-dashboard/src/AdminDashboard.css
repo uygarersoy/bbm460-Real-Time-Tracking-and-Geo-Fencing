@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .dashboard-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.2s;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fence-list {
+    margin-top: 30px;
+  }
+  
+  .fence-list h3 {
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .fence-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fence-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .fence-list li.empty {
+    color: #888;
+    font-style: italic;
+  }
+  
